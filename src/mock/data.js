@@ -58,7 +58,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mailto:manjaka.ran@onja.org',
 };
 
 // FOOTER DATA

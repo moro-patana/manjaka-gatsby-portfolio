@@ -18,9 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'My name is Manjaka Randrianirina. I am a front-end developer. I am from Madagascar. I was selected by Onja which is an organization teaches young people about tech and English. I could not speak English and I have not use computer before I joined Onja. We learn English only a year but I can speak and understand English now. What is more, we also learn about communication and professionalism.',
+  paragraphTwo: 'We study six days a week which includes Saturday. We learn markdown at the begining so that we would be able to write a good readme file. We moved on learning HTML and CSS after that because they are base of whole website. When we have learn more about that, we started to leanr Javascript and React. We have done more than eighty projects in a year. Some of our project are built with React and some are built with Vanilla Javascript. We also learn about Redux and Typescript and the end of the year of studying. We have done at least two projects as well.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -48,7 +47,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'photograph-small.png',
     title: 'Photograph',
-    info: '',
+    info: 'This project is built with HTML and Sass. There are some functionalities which built by Vanilla Javascript such as the menu and the image slider. It is a single page app. In this website, users can sroll to see all the images and find the owner of the photograph.',
     info2: '',
     url: 'https://front-end-final-manjaka.netlify.app/',
     repo: 'https://github.com/moro-patana/front-end-finals', // if no repo, the button will not show up

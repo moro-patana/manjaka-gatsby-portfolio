@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'country-quiz.png',
+    img: 'country-quiz-small.png',
     title: 'Country Quiz',
     info: 'Country Quiz is a website that allows users to view country information, and features quizzes on capitals names and flags for different parts of the globe. It was built using Create React App and utilizes the Rest Countries API and components from Semantic-UI-React.',
     info2: '',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'birthday-app.png',
+    img: 'birthday-app-small.png',
     title: 'Birthday App',
     info: 'The Birthday App is a website that lists the upcoming birthdays of registered users. It uses register functionalities. In each list, there is a custom birthday field for each user. So, each user can see the upcoming birthdays of all the people that have registered and inserted their birthday',
     info2: '',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'photograph.png',
+    img: 'photograph-small.png',
     title: 'Photograph',
     info: '',
     info2: '',

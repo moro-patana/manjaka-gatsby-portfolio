@@ -18,8 +18,14 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'My name is Manjaka Randrianirina. I am a front-end developer. I am from Madagascar. I was selected by Onja which is an organization teaches young people about tech and English. I could not speak English and I have not use computer before I joined Onja. We learn English only a year but I can speak and understand English now. What is more, we also learn about communication and professionalism.',
-  paragraphTwo: 'We study six days a week which includes Saturday. We learn markdown at the begining so that we would be able to write a good readme file. We moved on learning HTML and CSS after that because they are base of whole website. When we have learn more about that, we started to leanr Javascript and React. We have done more than eighty projects in a year. Some of our project are built with React and some are built with Vanilla Javascript. We also learn about Redux and Typescript and the end of the year of studying. We have done at least two projects as well.',
+  paragraphOne:
+    'My name is Manjaka Randrianirina and I am from Madagascar. I am a front-end developer. I was selected by Onja, an organization that teaches technology and English to young people who do not have opportunities to go to University.',
+  paragraphTwo:
+    'Before joining Onja, I was not fluent in English and had not even used a computer. After only a year in the organization, I can now speak and understand English and am continuing to learn about communication and professionalism.',
+  paragraphThree:
+    'We study for six days a week, from Mondays to Saturdays. We began by learning markdown to understand how to write a good readme file. From there, we moved on to learning HTML and CSS, the base of the whole website. We then learned Javascript and React, and at the end of the year, we studied Redux and Typescript.',
+  paragraphFour:
+    'We have completed some projects with Redux and Typescript, we have finished more than eighty projects with React and Vanilla Javascript. ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,7 +35,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'country-quiz-small.png',
     title: 'Country Quiz',
-    info: 'Country Quiz is a website that allows users to view country information, and features quizzes on capitals names and flags for different parts of the globe. It was built using Create React App and utilizes the Rest Countries API and components from Semantic-UI-React.',
+    info:
+      'Country Quiz is a website that allows users to view country information and features quizzes on the flags and names of capital cities around the world. It was built using Create React App and utilizes the Rest Countries API and components from Semantic-UI-React.',
     info2: '',
     url: 'https://country-quiz-manjaka.netlify.app/',
     repo: 'https://github.com/moro-patana/country-quiz', // if no repo, the button will not show up
@@ -38,7 +45,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'birthday-app-small.png',
     title: 'Birthday App',
-    info: 'The Birthday App is a website that lists the upcoming birthdays of registered users. It uses register functionalities. In each list, there is a custom birthday field for each user. So, each user can see the upcoming birthdays of all the people that have registered and inserted their birthday',
+    info:
+      'The Birthday App is a website that lists the upcoming birthdays of registered users. It uses register functionalities. In each list, there is a custom birthday field for each user. So, each user can see the upcoming birthdays of all the people that have registered and inserted their birthday',
     info2: '',
     url: 'https://birthday-app-manjaka.netlify.app/',
     repo: 'https://github.com/moro-patana/birthday-app', // if no repo, the button will not show up
@@ -47,7 +55,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'photograph-small.png',
     title: 'Photograph',
-    info: 'This project is built with HTML and Sass. There are some functionalities which built by Vanilla Javascript such as the menu and the image slider. It is a single page app. In this website, users can sroll to see all the images and find the owner of the photograph.',
+    info:
+      'Photograph was built with HTML and Sass. There are some functionalities which are built with Vanilla Javascript such as the menu and the image slider. It is a single-page app. In this website, users can scroll to see all the images and find the owner of each photograph.',
     info2: '',
     url: 'https://front-end-final-manjaka.netlify.app/',
     repo: 'https://github.com/moro-patana/front-end-finals', // if no repo, the button will not show up

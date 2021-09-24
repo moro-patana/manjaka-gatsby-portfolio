@@ -18,14 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne:
-    'My name is Manjaka Randrianirina and I am from Madagascar. I am a front-end developer. I was selected by Onja, an organization that teaches technology and English to young people who do not have opportunities to go to University.',
+  paragraphOne: 'My name is Manjaka Randrianirina and I am a Front-End developer from Madagascar.',
   paragraphTwo:
-    'Before joining Onja, I was not fluent in English and had not even used a computer. After only a year in the organization, I can now speak and understand English and am continuing to learn about communication and professionalism.',
+    'In 2019 I was selected by Onja, an organization that teaches English and software development and to young people who do not have the opportunity to go to University. At that time I could barely speak English or use a computer but after a lot of hard work, great teachers and a couple of years I picked up the skills I needed to become a software developer.',
   paragraphThree:
-    'We study for six days a week, from Mondays to Saturdays. We began by learning markdown to understand how to write a good readme file. From there, we moved on to learning HTML and CSS, the base of the whole website. We then learned Javascript and React, and at the end of the year, we studied Redux and Typescript.',
-  paragraphFour:
-    'We have completed some projects with Redux and Typescript, we have finished more than eighty projects with React and Vanilla Javascript. ',
+    'Since May I have been a Front-End web developer for Eskwelabs, a online data science school. During my time I have published more than 20 pull requests to add styling, React components and CRUD functionality to their web platform. I have also writing tests with Cypress and Jest. Our tech stack included React, TypeScript, TailwindCSS, and GraphQL. From time to time I also contributed a little to our NodeJS MongoDB PostgreSQL backend.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 

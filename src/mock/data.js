@@ -30,16 +30,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'country-quiz-thumbnail.png',
-    title: 'Country Quiz',
-    info:
-      'Country Quiz is a website that allows users to view country information and features quizzes on the flags and names of capital cities around the world. It was built using Create React App and utilizes the Rest Countries API and components from Semantic-UI-React.',
-    info2: '',
-    url: 'https://country-quiz-manjaka.netlify.app/',
-    repo: 'https://github.com/moro-patana/country-quiz', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'birthday-thumbnail.png',
     title: 'Birthday App',
     info:
